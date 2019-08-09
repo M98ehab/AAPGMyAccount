@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">AAPG MyAccount</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="faculty">
+        <item>Choose your Faculty....</item>
+        <item>Petroleum and Mining Engineering</item>
+        <item>Science</item>
+        <item>Education</item>
+        <item>Arts and Humanities Science</item>
+        <item>Computers and Information</item>
+        <item>Economics and Politics Science</item>
+        <item>Fish Resources and Marine Studies</item>
+        <item>Industrial Education</item>
+        <item>Commerce</item>
+        <item>Islamic and Arabic Studies</item>
+        <item>High Canal Institute for Technology and Engineering</item>
+        <item>Suez Institute for Management</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="pme_department">
+        <item>Choose your Department ....</item>
+        <item>Petroleum Engineering</item>
+        <item>Refining and Petrochemical Engineering</item>
+        <item>Metallurgical and Materials Engineering</item>
+        <item>Mining Engineering</item>
+        <item>Geological and Geophysical Engineering</item>
+        <item>Petroleum Exploration and Production Engineering</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="departmentSC">
+        <item>Choose your Department ....</item>
+        <item>Physics</item>
+        <item>General Chemistry</item>
+        <item>Biochemistry</item>
+        <item>Biotechnology</item>
+        <item>Microbiology</item>
+        <item>Mathematics</item>
+        <item>Petroleum Geology</item>
+        <item>Information Technology</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Education_departments">
+        <item>Choose your Department ....</item>
+        <item>French</item>
+        <item>English</item>
+        <item>Arabic and Islamic Studies</item>
+        <item>Science</item>
+        <item>Educational Technology</item>
+        <item>Artistic</item>
+        <item>Kindergarten</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Mathematics</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Arts_department">
+        <item>Choose your Department ....</item>
+        <item>English</item>
+        <item>French</item>
+        <item>Arabic Language and Literature</item>
+        <item>Sociology</item>
+        <item>Environmental Science and Geographic Information System</item>
+        <item>History</item>
+        <item>Philosophy</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="other_department">
+        <item>Choose your Department ....</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="departmentfr">
+        <item>Choose your Department ....</item>
+        <item>Aquaculture</item>
+        <item>Fisheries</item>
+        <item>Marine Engineering</item>
+        <item>Marine Navigation</item>
+        <item>Marine Safety</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="commerce">
+        <item>Choose your Department ....</item>
+        <item>Accounting</item>
+        <item>Business Administration</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="islamic">
+        <item>Choose your Department ....</item>
+        <item>Usul El Deen</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="ma3had">
+        <item>Choose your Department ....</item>
+        <item>Refining of Petroleum</item>
+        <item>Metals</item>
+        <item>Chemistry</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="suezInstitutse">
+        <item>Choose your Department ....</item>
+        <item>Business Administration</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="year4">
+        <item>Choose the year...</item>
+        <item>Preparatory</item>
+        <item>First year</item>
+        <item>Second year</item>
+        <item>Third year</item>
+        <item>Fourth year</item>
+    </string-array>
+
+    <string-array name="position">
+        <item>Choose your Position....</item>
+        <item>Member</item>
+        <item>Head Assistant</item>
+        <item>Ex Head Assistant</item>
+        <item>Head</item>
+        <item>Ex Head</item>
+        <item>Officer</item>
+        <item>Ex Officer</item>
+        <item>Vice-officer</item>
+        <item>President</item>
+        <item>Ex President</item>
+        <item>Vice-president</item>
+        <item>Ex Vice-president</item>
+        <item>Programs Coordinator</item>
+        <item>Trainer</item>
+        <item>Ex Trainer</item>
+        <item>Editor-In-Chief</item>
+        <item>Ex Editor-In-Chief</item>
+        <item>Secretary Deputy</item>
+        <item>Ex Secretary Deputy</item>
+    </string-array>
+
+    <string-array name="coordination">
+        <item>Choose your coordination...</item>
+        <item>Marketing Coordination</item>
+        <item>Executive Coordination</item>
+        <item>HR Coordination</item>
+        <item>Academy Coordination</item>
+        <item>Secretary Coordination</item>
+        <item>Treasury Coordination</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="marketing">
+        <item>Choose your committee...</item>
+        <item>Information Technology Web(IT Web)</item>
+        <item>Information Technology Android(IT Android)</item>
+        <item>Social Media</item>
+        <item>Media</item>
+    </string-array>
+
+    <string-array name="executive">
+        <item>Choose your committee...</item>
+        <item>Direct publicity</item>
+        <item>Operations Committee(OC)</item>
+    </string-array>
+
+    <string-array name="HR">
+        <item>Choose your committee...</item>
+        <item>Human Resources(HR)</item>
+    </string-array>
+
+    <string-array name="academy">
+        <item>Choose your committee...</item>
+        <item>Academy El Gamaa</item>
+        <item>Academy Petrol</item>
+    </string-array>
+
+    <string-array name="secretary">
+        <item>Choose your committee...</item>
+        <item>Magazine</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="treasury">
+        <item>Choose your committee...</item>
+        <item>Public Relations(PR)</item>
+    </string-array>
+
+    <string-array name="coordinationsec">
+        <item>Choose your coordination...</item>
+        <item>Secretary Coordination</item>
+    </string-array>
+
+    <string-array name="other_ccordination">
+        <item>Choose your committee...</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="empty">
+        <item></item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_educational_info">EducationalInfo</string>
+    <string name="title_activity_chapter_info">ChapterInfo</string>
+</resources>

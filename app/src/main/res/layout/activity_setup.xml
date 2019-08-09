@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/setup_profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile"
+            android:layout_marginTop="10dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorPrimaryDark"/>
+
+
+        <!--Education-->
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:background="@color/colorAccent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="Education Info"
+                    android:textColor="@color/textColorEventsDesc"
+                    android:textSize="30sp" />
+
+                <Spinner
+                    android:id="@+id/faculty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="50dp"
+                    android:contextClickable="false"
+                    tools:ignore="ObsoleteLayoutParam,UnusedAttribute"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="58dp" />
+
+                <Spinner
+                    android:id="@+id/department"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/faculty"
+                    android:layout_marginTop="50dp"
+                    android:contextClickable="false"
+                    android:visibility="visible"
+                    tools:ignore="ObsoleteLayoutParam,UnusedAttribute"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="58dp" />
+
+                <Spinner
+                    android:id="@+id/year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/semester"
+                    android:layout_marginTop="50dp"
+                    android:contextClickable="false"
+                    android:visibility="visible"
+                    tools:ignore="ObsoleteLayoutParam,UnusedAttribute"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="58dp" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+    <!--Chapter-->
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:background="@color/colorAccent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="Chapter Info"
+                    android:textColor="@color/textColorEventsDesc"
+                    android:textSize="30sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_id" />
+
+                    <EditText
+                        android:id="@+id/id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext"
+                        android:ems="10"
+                        android:hint="Type your AAPG ID..."
+                        android:inputType="number"
+                        android:textColor="@android:color/black"
+                        android:textCursorDrawable="@color/textColorEventsDesc" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/position"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="50dp"
+                    android:contextClickable="false"
+                    tools:ignore="ObsoleteLayoutParam,UnusedAttribute"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="58dp" />
+
+                <Spinner
+                    android:id="@+id/coordination"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/faculty"
+                    android:layout_marginTop="50dp"
+                    android:contextClickable="false"
+                    android:visibility="visible"
+                    tools:ignore="ObsoleteLayoutParam,UnusedAttribute"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="58dp" />
+
+                <Spinner
+                    android:id="@+id/committee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/semester"
+                    android:layout_marginTop="50dp"
+                    android:contextClickable="false"
+                    android:visibility="visible"
+                    tools:ignore="ObsoleteLayoutParam,UnusedAttribute"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="58dp" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+    <!--Personal-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:background="@color/colorAccent">
+
+            <LinearLayout
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="Personal Info"
+                    android:textColor="@color/textColorEventsDesc"
+                    android:textSize="30sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_phone" />
+
+                    <EditText
+                        android:id="@+id/num"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext"
+                        android:ems="10"
+                        android:hint="Type your phone NO. ..."
+                        android:inputType="number"
+                        android:textColor="@android:color/black"
+                        android:textCursorDrawable="@color/textColorEventsDesc" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/edittext2"
+                    android:ems="10"
+                    android:gravity="top|left"
+                    android:hint="Describe yourself......."
+                    android:inputType="textMultiLine"
+                    android:isScrollContainer="true"
+                    android:lines="5"
+                    android:maxLines="10"
+                    android:scrollbars="vertical"
+                    android:textColor="@android:color/black"
+                    android:textCursorDrawable="@color/textColorEventsDesc" />
+
+
+                <ProgressBar
+                    android:id="@+id/loading"
+                    style="@style/Widget.AppCompat.ProgressBar"
+                    android:indeterminateTint="@color/colorPrimaryDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/save_info"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/reg_btn"
+                    android:text="Save"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>
+
+
+</ScrollView>
